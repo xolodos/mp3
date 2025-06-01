@@ -12,8 +12,9 @@ pygame.mixer.init()
 SCRIPT_DIR = Path(__file__).parent.absolute()
 
 MUSIC_FOLDERS = {
-    "1": SCRIPT_DIR / "jumpstyle",
-    "2": SCRIPT_DIR / "funk"
+    "1": SCRIPT_DIR / "hoodtrap ❤️",
+    "2": SCRIPT_DIR / "jumpstyle",
+    "3": SCRIPT_DIR / "funk"
 }
 
 def print_slow(text, color=Fore.GREEN, delay=0.03):
@@ -87,9 +88,10 @@ def play_music_from_folder(folder):
 
 def main():
     os.system('cls' if os.name == 'nt' else 'clear')
-    print_slow("=== 🎵 me.arbuzz.su ===")
-    print_slow("1. jumpstyle", delay=0.05)
-    print_slow("2. funk", delay=0.05)
+    print_slow("=== 🎵 me.frozensoul.ru ===")
+    print_slow("1. hoodtrap", delay=0.05)
+    print_slow("2. jumpstyle", delay=0.05)
+    print_slow("3. funk", delay=0.05)
     print_slow("0. выход", delay=0.05)
 
     while True:
